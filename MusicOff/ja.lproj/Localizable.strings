@@ -1,0 +1,30 @@
+/* 
+ Localizable.strings
+ MusicOff
+ 
+ Created by 태환 on 5/26/12.
+ Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+ */
+
+"Home" = "ホーム";
+"Setting" = "セッティング";
+"Music Off" = "音楽終了";
+"Help" = "使用方法";
+"S T A R T" = "スタート";
+"S T O P" = "中止";
+"Test Start" = "テストスタート";
+"Test Stop" = "テスト中止";
+"Auto Music Off Mode" = "自動音楽終了モード";
+"CAUTION!" = "注意!";
+"lock1" = "ロックボタンを";
+"lock2" = "押さないでください!";
+"home1" = "ホームボタンを";
+"home2" = "押さないでください!";
+"charge1" = "アイフォンを";
+"charge2" = "充電してください!";
+"Timer Stops" = "タイマーが止まります（泣）";
+"GOOD FOR YOU!" = "信じればいいことあり!";
+"Timer Reactivated!!" = "タイマーが再活性化されました。";
+"OK" = "確認";
+"Music turned Off" = "音楽が終了されました。";
+"Automatically Music turned Off" = "自動的に音楽が終了されました。";

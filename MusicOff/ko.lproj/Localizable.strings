@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  MusicOff
+
+  Created by 태환 on 5/26/12.
+  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+ */
+
+"Home" = "홈";
+"Setting" = "설 정";
+"Music Off" = "음악  종료";
+"Help" = "도 움 말";
+"S T A R T" = "시      작";
+"S T O P" = "멈      춤";
+"Test Start" = "테 스 트   시 작";
+"Test Stop" = "테 스 트   멈 춤";
+"Auto Music Off Mode" = "자 동   음 악   종 료   모 드";
+"CAUTION!" = " 주    의 !";
+"lock1" = "'락'  버 튼 을";
+"lock2" = "누르지마세요";
+"home1" = "'홈'  버 튼 을";
+"home2" = "누르지마세요";
+"charge1" = "'아 이 폰'  을";
+"charge2" = "충전기에 연결하세요";
+"Timer Stops" = "타 이 머 가  멈 춰 요  ㅜ";
+"GOOD FOR YOU!" = "믿 으 셈   좋 은 거 임?!";
+"Timer Reactivated!!" = "타이머가  재활성화  되었습니다.";
+"OK" = "확 인";
+"Music turned Off" = "음악이 종료되었습니다";
+"Automatically Music turned Off" = "자동으로 음악이 종료되었습니다";
