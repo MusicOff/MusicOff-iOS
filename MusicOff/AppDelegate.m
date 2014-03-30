@@ -21,10 +21,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    UIImageView * Bg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    int screenHeight = [[UIScreen mainScreen] bounds].size.height;
+    UIImageView * Bg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, screenHeight)];
     [Bg setImage:[UIImage imageNamed:@"background.png"]];
     pageViewController = [[PageViewController alloc] init];
-    pageViewController.view.frame = CGRectMake(0, 20, 320, 460);
+    pageViewController.view.frame = CGRectMake(0, 20, 320, screenHeight - 20);
     
     UIWindow * window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window = window;

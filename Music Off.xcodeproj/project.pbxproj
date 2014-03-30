@@ -116,6 +116,8 @@
 		C7D1991815899A780056AB2E /* popupWindowBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D1991615899A780056AB2E /* popupWindowBack@2x.png */; };
 		C7D1991E1589F8B60056AB2E /* CLICK5.WAV in Resources */ = {isa = PBXBuildFile; fileRef = C7D1991D1589F8B60056AB2E /* CLICK5.WAV */; };
 		C7F666B215B2ECDD00E9BEC0 /* ProximityMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F666B115B2ECDD00E9BEC0 /* ProximityMonitor.m */; };
+		D4FA17ED1803D978007E5BBB /* UIDevice+Resolutions.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FA17EC1803D978007E5BBB /* UIDevice+Resolutions.m */; };
+		D4FA17EF1803D9EA007E5BBB /* default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FA17EE1803D9EA007E5BBB /* default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -260,6 +262,9 @@
 		C7D1991D1589F8B60056AB2E /* CLICK5.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CLICK5.WAV; sourceTree = "<group>"; };
 		C7F666B015B2ECDD00E9BEC0 /* ProximityMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProximityMonitor.h; sourceTree = "<group>"; };
 		C7F666B115B2ECDD00E9BEC0 /* ProximityMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProximityMonitor.m; sourceTree = "<group>"; };
+		D4FA17EB1803D978007E5BBB /* UIDevice+Resolutions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Resolutions.h"; sourceTree = "<group>"; };
+		D4FA17EC1803D978007E5BBB /* UIDevice+Resolutions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Resolutions.m"; sourceTree = "<group>"; };
+		D4FA17EE1803D9EA007E5BBB /* default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +297,7 @@
 		C74EA51F15063C5D003D63F4 = {
 			isa = PBXGroup;
 			children = (
+				D4FA17EE1803D9EA007E5BBB /* default-568h@2x.png */,
 				C706CFF315C223D200814D72 /* default@2x.png */,
 				C706CFF115C223CE00814D72 /* default.png */,
 				C706CFEF15C223B500814D72 /* Icon@2x.png */,
@@ -405,6 +411,8 @@
 				C78E410915063E450002AF9D /* Accelerometer.m */,
 				C7F666B015B2ECDD00E9BEC0 /* ProximityMonitor.h */,
 				C7F666B115B2ECDD00E9BEC0 /* ProximityMonitor.m */,
+				D4FA17EB1803D978007E5BBB /* UIDevice+Resolutions.h */,
+				D4FA17EC1803D978007E5BBB /* UIDevice+Resolutions.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -708,6 +716,7 @@
 				C7D1991815899A780056AB2E /* popupWindowBack@2x.png in Resources */,
 				C7D1991E1589F8B60056AB2E /* CLICK5.WAV in Resources */,
 				C706CFEE15C223A300814D72 /* Icon.png in Resources */,
+				D4FA17EF1803D9EA007E5BBB /* default-568h@2x.png in Resources */,
 				C706CFF015C223B500814D72 /* Icon@2x.png in Resources */,
 				C706CFF215C223CE00814D72 /* default.png in Resources */,
 				C706CFF415C223D200814D72 /* default@2x.png in Resources */,
@@ -768,6 +777,7 @@
 				C78E412215063EF30002AF9D /* MusicOffViewController.m in Sources */,
 				C78E412715063EFC0002AF9D /* HelpViewController.m in Sources */,
 				C78E412B15063F180002AF9D /* CustomTabBar.m in Sources */,
+				D4FA17ED1803D978007E5BBB /* UIDevice+Resolutions.m in Sources */,
 				C7D19902158981C70056AB2E /* PopUpWindow.m in Sources */,
 				C7F666B215B2ECDD00E9BEC0 /* ProximityMonitor.m in Sources */,
 			);
