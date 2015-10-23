@@ -47,17 +47,17 @@
     scrollView.backgroundColor = [UIColor clearColor];
     
     helpViewControllerFront = [[HelpViewController alloc] init];
-    helpViewControllerFront.view.frame = CGRectMake(0, 0, 320, screenHeight - 70);
+    helpViewControllerFront.view.frame = CGRectMake(0, 20, 320, screenHeight - 70);
     homeViewController = [[HomeViewController alloc] init];
-    homeViewController.view.frame = CGRectMake(320, 0, 320, screenHeight - 70);
+    homeViewController.view.frame = CGRectMake(320, 20, 320, screenHeight - 70);
     settingViewController = [[SettingViewController alloc] init];
-    settingViewController.view.frame = CGRectMake(640, 0, 320, screenHeight - 70);
+    settingViewController.view.frame = CGRectMake(640, 20, 320, screenHeight - 70);
     musicOffViewController = [[MusicOffViewController alloc] init];
-    musicOffViewController.view.frame = CGRectMake(960, 0, 320, screenHeight - 70);
+    musicOffViewController.view.frame = CGRectMake(960, 20, 320, screenHeight - 70);
     helpViewController = [[HelpViewController alloc] init];
-    helpViewController.view.frame = CGRectMake(1280, 0, 320, screenHeight - 70);
+    helpViewController.view.frame = CGRectMake(1280, 20, 320, screenHeight - 70);
     homeViewControllerBehind = [[HomeViewController alloc] init];
-    homeViewControllerBehind.view.frame = CGRectMake(1600, 0, 320, screenHeight - 70);
+    homeViewControllerBehind.view.frame = CGRectMake(1600, 20, 320, screenHeight - 70);
     
     [settingViewController setMusicOffViewController:musicOffViewController];
     [musicOffViewController setSettingViewController:settingViewController];
@@ -100,7 +100,7 @@
 - (void)setinitView
 {
     int screenHeight = [[UIScreen mainScreen] bounds].size.height;
-    tabBar = [[CustomTabBar alloc] initWithFrame:CGRectMake(0, screenHeight - 20 - CustomTabHeight, 320, CustomTabHeight)];
+    tabBar = [[CustomTabBar alloc] initWithFrame:CGRectMake(0, screenHeight - CustomTabHeight, 320, CustomTabHeight)];
     [tabBar setDelegate:self];
     [tabBar setBg:[UIImage imageNamed:@"menu_bar.png"]];
     

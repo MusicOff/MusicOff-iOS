@@ -27,9 +27,7 @@
     pageViewController = [[PageViewController alloc] init];
     pageViewController.view.frame = CGRectMake(0, 20, 320, screenHeight - 20);
     
-    UIWindow * window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window = window;
-    [window release];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window addSubview:Bg];
     [Bg release];
     [self.window addSubview:pageViewController.view];
@@ -43,6 +41,9 @@
     if (localNotification) {
         NSLog(@"Local Noti get when the app tur");
     }
+    
+    self.window.rootViewController = pageViewController;
+    application.statusBarHidden = NO;
     
     return YES;
 }
